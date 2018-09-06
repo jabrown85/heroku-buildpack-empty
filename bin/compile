@@ -22,6 +22,7 @@ source "$STDLIB_FILE"
 
 ### Load env vars
 
+echo "Current ENV_DIR"
 export_env "$ENV_DIR"
 
 ### Vendor files into the build dir (which becomes /app at runtime)
