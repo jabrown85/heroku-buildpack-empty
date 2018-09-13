@@ -25,6 +25,9 @@ source "$STDLIB_FILE"
 echo "Current ENV_DIR"
 export_env "$ENV_DIR"
 
+echo "AVAILABLE ENV"
+env
+
 ### Vendor files into the build dir (which becomes /app at runtime)
 
 cp -r "$BP_DIR/app/." "$BUILD_DIR"
